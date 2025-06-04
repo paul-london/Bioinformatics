@@ -32,6 +32,7 @@ This repository documents hands-on training in next-generation sequencing (NGS) 
 3. **Variant Calling:** Using GATK HaplotypeCaller to generate VCF files.  
 4. **Quality Control:** Assessment of variant metrics and filtering.
 
+!(https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fhdy.2016.102/MediaObjects/41437_2017_Article_BFhdy2016102_Fig1_HTML.jpg)
 ---
 
 ## Setup Instructions
