@@ -1,0 +1,12 @@
+# config.yaml
+
+samples:
+  sample1:
+    R1: sample_data/test_R1.fastq.gz
+    R2: sample_data/test_R2.fastq.gz
+
+reference: reference/hg19.fa
+
+params:
+  threads: 4
+  mapq_threshold: 20

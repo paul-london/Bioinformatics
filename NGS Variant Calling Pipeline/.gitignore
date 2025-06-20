@@ -1,0 +1,44 @@
+# Snakemake-related
+.snakemake/
+*.snakemake
+
+# Log files
+*.log
+*.err
+*.out
+
+# Intermediate files and large outputs
+*.bam
+*.bai
+*.sam
+*.vcf
+*.tbi
+*.gz
+*.fastq
+*.fasta
+*.fa
+*.fq
+*.idx
+*.dict
+
+# Conda environments and related
+*.conda
+*.yaml.lock
+envs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Other
+*.tmp
+*.swp
+*.bak
+*.old
