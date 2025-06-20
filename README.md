@@ -44,7 +44,7 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 
 ---
 
-## Getting Started
+## 🛫 Getting Started
 
 Each project folder contains its own README with detailed setup and usage instructions. Please explore those to learn more and run the workflows.
 
