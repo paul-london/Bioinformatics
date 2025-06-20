@@ -8,14 +8,16 @@ This Snakemake pipeline performs variant calling from paired-end FASTQ files usi
     - Snakefile
         - config.yaml
     - envs/
-│   └── variant_calling.yaml
-├── scripts/
-│   └── filter_variants.py
-├── sample_data/
-│   ├── test_R1.fastq.gz
-│   └── test_R2.fastq.gz
-├── .gitignore
-└── README.md
+        - variant_calling.yaml
+    - scripts/
+        - filter_variants.py
+    - sample_data/
+        - test_R1.fastq.gz
+        - test_R2.fastq.gz
+    - reference/
+        - humangenome.fa 
+- .gitignore
+- README.md
 
 ## 🔧 Requirements
 
