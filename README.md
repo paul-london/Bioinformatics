@@ -31,8 +31,6 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 
 > See the [`NGS Variant Calling Pipeline`](./NGS_Variant_Calling_Pipeline) folder for full pipeline code and documentation.
 
----
-
 ### Ipseity Bio GATK Pipeline Training
 
 Training materials and example workflows from the Ipseity Bio GATK pipeline course.  
@@ -42,19 +40,13 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 
 > See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK_Pipeline_Training_(Ipseity_Bio)) folder for training materials and example scripts.
 
----
-
 ## 🛫 Getting Started
 
 Each project folder contains its own README with detailed setup and usage instructions. Please explore those to learn more and run the workflows.
 
----
-
 ## 📬 Contact
 
 If you have any questions or feedback, feel free to reach out!
-
----
 
 *This repository is under active development. Stay tuned for updates and new projects!*
 
