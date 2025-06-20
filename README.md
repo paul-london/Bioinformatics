@@ -1,6 +1,6 @@
 # Bioinformatics Projects
 
-Welcome to my bioinformatics projects repository! This repo contains pipelines and training resources that I've developed and worked with to streamline genomic data analysis.
+Welcome to my bioinformatics projects repository! Here you will find pipelines and training resources that I've developed and worked with to streamline genomic data analysis.
 
 ## 🚀 Core Topics
 
