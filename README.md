@@ -21,7 +21,7 @@ Welcome to my bioinformatics projects repository! Here you will find pipelines a
 
 ## 📁 Projects in this Repository
 
-### NGS Variant Calling Snakemake Pipeline
+### 1. NGS Variant Calling Snakemake Pipeline
 
 A reproducible and modular Snakemake workflow for variant calling from raw paired-end FASTQ files.  
 - Uses tools like BWA, SAMtools, and bcftools  
@@ -31,7 +31,7 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 
 > See the [`NGS Variant Calling Pipeline`](./NGS_Variant_Calling_Pipeline) folder for full pipeline code and documentation.
 
-### Ipseity Bio GATK Pipeline Training
+### 2. Ipseity Bio GATK Pipeline Training
 
 Training materials and example workflows from the Ipseity Bio GATK pipeline course.  
 - Hands-on experience with the GATK best practices for variant discovery  
