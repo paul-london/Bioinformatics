@@ -44,6 +44,14 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 
 Each project folder contains its own README with detailed setup and usage instructions. Please explore those to learn more and run the workflows.
 
+## 📥 Clone This Repository
+
+To clone this repository to your local machine, run:
+
+```bash
+git clone https://github.com/paul-london/bioinformatics-pipeline.git
+```
+
 ## 📬 Contact
 
 If you have any questions or feedback, feel free to reach out!
