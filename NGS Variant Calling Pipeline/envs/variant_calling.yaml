@@ -1,0 +1,11 @@
+# envs/variant_calling.yaml
+
+name: variant_calling
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bwa
+  - samtools
+  - bcftools
+  - snakemake
