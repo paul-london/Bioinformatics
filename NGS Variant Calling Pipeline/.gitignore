@@ -13,10 +13,10 @@
 *.sam
 *.vcf
 *.tbi
-*.gz
-*.fastq
-*.fasta
-*.fa
+# *.gz
+# *.fastq
+# *.fasta
+# *.fa
 *.fq
 *.idx
 *.dict
