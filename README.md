@@ -2,11 +2,26 @@
 
 Welcome to my bioinformatics projects repository! This repo contains pipelines and training resources that I've developed and worked with to streamline genomic data analysis.
 
----
+## 🚀 Core Topics
 
-## Projects Overview
+- 🐍 Python Scripting  
+- 🔎 NGS Data Processing  
+- 🧬 Sequence Alignment  
+- 🧫 Variant Calling  
+- 🧪 Workflow Automation with Snakemake  
 
-### 1. NGS Variant Calling Snakemake Pipeline
+## 📦 Key Libraries & Tools Used
+
+- 🐍 `snakemake` — Workflow management and automation  
+- 🔬 `bwa` — Sequence alignment tool  
+- 🔎 `samtools` — SAM/BAM file processing  
+- 🧪 `bcftools` — Variant calling and VCF manipulation  
+- 🐼 `pandas` — Data manipulation (optional for analysis/reporting)  
+- 🔢 `numpy` — Numerical operations (optional)  
+
+## 📁 Projects in this Repository
+
+### NGS Variant Calling Snakemake Pipeline
 
 A reproducible and modular Snakemake workflow for variant calling from raw paired-end FASTQ files.  
 - Uses tools like BWA, SAMtools, and bcftools  
@@ -18,7 +33,7 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 
 ---
 
-### 2. Ipseity Bio GATK Pipeline Training
+### Ipseity Bio GATK Pipeline Training
 
 Training materials and example workflows from the Ipseity Bio GATK pipeline course.  
 - Hands-on experience with the GATK best practices for variant discovery  
