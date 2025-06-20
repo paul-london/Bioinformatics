@@ -1,4 +1,4 @@
-# Bioinformatics Projects Repository
+# Bioinformatics Projects
 
 Welcome to my bioinformatics projects repository! This repo contains pipelines and training resources that I've developed and worked with to streamline genomic data analysis.
 
@@ -50,7 +50,7 @@ Each project folder contains its own README with detailed setup and usage instru
 
 ---
 
-## Contact
+## 📬 Contact
 
 If you have any questions or feedback, feel free to reach out!
 
