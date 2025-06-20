@@ -5,8 +5,8 @@ This Snakemake pipeline performs variant calling from paired-end FASTQ files usi
 ## 📁 Project Structure
 
 ```
-project/
-├── Snakefile
+- project/
+  - Snakefile
 ├── config.yaml
 ├── envs/
 │   └── variant_calling.yaml
