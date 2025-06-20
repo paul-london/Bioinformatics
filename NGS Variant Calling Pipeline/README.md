@@ -4,11 +4,10 @@ This Snakemake pipeline performs variant calling from paired-end FASTQ files usi
 
 ## 📁 Project Structure
 
-```
 - project/
-  - Snakefile
-├── config.yaml
-├── envs/
+    - Snakefile
+        - config.yaml
+    - envs/
 │   └── variant_calling.yaml
 ├── scripts/
 │   └── filter_variants.py
@@ -17,7 +16,6 @@ This Snakemake pipeline performs variant calling from paired-end FASTQ files usi
 │   └── test_R2.fastq.gz
 ├── .gitignore
 └── README.md
-```
 
 ## 🔧 Requirements
 
