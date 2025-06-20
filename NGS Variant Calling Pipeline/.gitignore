@@ -24,7 +24,7 @@
 # Conda environments and related
 *.conda
 *.yaml.lock
-envs/
+# envs/
 
 # Python cache
 __pycache__/
