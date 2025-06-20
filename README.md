@@ -14,7 +14,7 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 - Includes test datasets and example configurations  
 - Automates preprocessing, alignment, and variant detection  
 
-> See the [`NGS Variant Calling Pipeline`](./NGS Variant Calling Pipeline) folder for full pipeline code and documentation.
+> See the [`NGS Variant Calling Pipeline`](./NGS_Variant_Calling_Pipeline) folder for full pipeline code and documentation.
 
 ---
 
@@ -25,7 +25,7 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 - Includes workflows for data preprocessing, base recalibration, and variant calling  
 - Focus on reproducibility and scalability in bioinformatics analysis  
 
-> See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK Pipeline Training (Ipseity Bio)) folder for training materials and example scripts.
+> See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK_Pipeline_Training_(Ipseity_Bio)) folder for training materials and example scripts.
 
 ---
 
