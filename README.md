@@ -49,7 +49,7 @@ Custom Python scripts leveraging Biopython for open reading frame (ORF) detectio
 - Supports customizable start and stop codons
 - Includes utilities for sequence translation and visualization
 
-> See the ['Biopython FASTA Processing'](./Biopython_FASTA_Processing) folder for script and sample input files. 
+> See the [`Biopython FASTA Processing`](./Biopython_FASTA_Processing) folder for script and sample input files. 
 
 ## 🛫 Getting Started
 
