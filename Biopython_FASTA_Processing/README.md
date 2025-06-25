@@ -6,7 +6,7 @@ This project contains a Python script for analyzing DNA sequences from FASTA fil
 
 - Parses and extracts sequences from GenBank and FASTA files
 - Detects longest ORFs in all 3 reading frames (with customizable start/stop codons)
-- Counts instances of n-basepair repeats.
+- Counts instances of *n*-basepair repeats.
 - Supports batch analysis of multiple sequences
 - Outputs ORF length, position, and frame information
 
@@ -42,7 +42,7 @@ python orf_finder.py example_data/sample.gb
 - Sequence lengths
 - Longest ORF per sequence
 - Frame and position info
-- Number of n-basepair repeats
+- Number of *n*-basepair repeats
 
 🧪 Example Output
 
