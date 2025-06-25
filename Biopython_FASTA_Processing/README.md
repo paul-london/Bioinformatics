@@ -57,7 +57,3 @@ Stop: 3084
 💡 Notes
 - You can customize start/stop codons as function parameters.
 - Easily extendable to output results in CSV or JSON formats.
-
-📜 License
-
-This project is licensed under the MIT License.
