@@ -40,6 +40,17 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 
 > See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK_Pipeline_Training_(Ipseity_Bio)) folder for training materials and example scripts.
 
+### 3. Biopython FASTA Processing
+
+Custom Python scripts leveraging Biopython for open reading frame (ORF) detection and DNA sequence analysis.
+
+- Parses GenBank files and extracts sequence data
+- Identifies the longest ORFs across all three reading frames
+- Supports customizable start and stop codons
+- Includes utilities for sequence translation and visualization
+
+> See the ['Biopython FASTA Processing'](./Biopython_FASTA_Processing) folder for script and sample input files. 
+
 ## 🛫 Getting Started
 
 Each project folder contains its own README with detailed setup and usage instructions. Please explore those to learn more and run the workflows.
