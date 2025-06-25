@@ -1,6 +1,6 @@
 # 🧬 Biopython ORF Finder & Sequence Analysis
 
-This project contains Python scripts for analyzing DNA sequences using the Biopython library. It includes tools for parsing GenBank and FASTA files, identifying open reading frames (ORFs), and counting n-basepair repeats.
+This project contains a Python script for analyzing DNA sequences from FASTA files using the Biopython library. It includes tools for many common DNA sequencing tasks, such as reading sequence length, identifying open reading frames (ORFs), and counting *n*-basepair repeats.
 
 ## 🔍 Features
 
