@@ -22,10 +22,10 @@ This project contains Python scripts for analyzing DNA sequences using the Biopy
 ## 📁 Project Structure
 
 Biopython_FASTA_Processing/
-- Biopython_FASTA_Processing.py *(Main script)*
+- Biopython_FASTA_Processing.py *(main script)*
 - dna1.fasta *(sample data file 1)*
 - dna2.fasta *(sample data file 2)*
-- README.md *(Project documentation)*
+- README.md *(project documentation)*
 
 ## 🚀 Usage
 
