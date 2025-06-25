@@ -4,20 +4,25 @@ Welcome to my bioinformatics projects repository! Here you will find pipelines a
 
 ## 🚀 Core Topics
 
-- 🐍 Python Scripting  
-- 🔎 NGS Data Processing  
-- 🧬 Sequence Alignment  
-- 🧫 Variant Calling  
-- 🧪 Workflow Automation with Snakemake  
+- 🐍 Python Scripting
+- 🔎 NGS Data Processing
+- 🧬 Sequence Alignment
+- 🧫 Variant Calling
+- 🧪 Workflow Automation with Snakemake
+- 🧬 ORF Detection and Gene Annotation
+- 🧾 GenBank Parsing and Sequence Analysis
 
 ## 📦 Key Libraries & Tools Used
 
-- 🐍 `snakemake` — Workflow management and automation  
-- 🔬 `bwa` — Sequence alignment tool  
-- 🔎 `samtools` — SAM/BAM file processing  
-- 🧪 `bcftools` — Variant calling and VCF manipulation  
-- 🐼 `pandas` — Data manipulation (optional for analysis/reporting)  
-- 🔢 `numpy` — Numerical operations (optional)  
+- 🐍 snakemake — Workflow management and automation
+- 🔬 bwa — Sequence alignment tool
+- 🔎 samtools — SAM/BAM file processing
+- 🧪 bcftools — Variant calling and VCF manipulation
+- 🐼 pandas — Data manipulation
+- 🔢 numpy — Numerical operations
+- 🧬 biopython — Biological sequence parsing, ORF detection, and translation
+- 📄 SeqIO — Reading/writing sequence data from GenBank and FASTA files
+- 🧠 Bio.Seq — DNA sequence manipulation and translation utilities
 
 ## 📁 Projects in this Repository
 
