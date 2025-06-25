@@ -59,4 +59,5 @@ Stop: 3084
 - Easily extendable to output results in CSV or JSON formats.
 
 📜 License
+
 This project is licensed under the MIT License.
