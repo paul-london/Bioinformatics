@@ -46,7 +46,8 @@ python orf_finder.py example_data/sample.gb
 
 🧪 Example Output
 
-`Sequence ID: gi|142022655|gb|EQ086233.1|16`\n
+`Sequence ID: gi|142022655|gb|EQ086233.1|16`
+
 `Longest ORF Length: 1644 bp`
 `Frame: 3`
 `Start: 1440`
