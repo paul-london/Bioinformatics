@@ -36,6 +36,7 @@ Biopython_FASTA_Processing/
 2. Run the script:
 
 `python Biopython_FASTA_Processing.py`
+
 Set the file variable to either dna1.fasta or dna2.fasta
 
 3. Output:
