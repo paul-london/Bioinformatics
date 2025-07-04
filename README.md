@@ -54,7 +54,19 @@ Custom Python scripts leveraging Biopython for open reading frame (ORF) detectio
 - Supports customizable start and stop codons
 - Includes utilities for sequence translation and visualization
 
-> See the [`Biopython FASTA Processing`](./Biopython_FASTA_Processing) folder for script and sample input files. 
+> See the [`Biopython FASTA Processing`](./Biopython_FASTA_Processing) folder for script and sample input files.
+
+### 4. FASTA and FASTQ Pattern Matching
+
+A lightweight Python project for searching and extracting specific nucleotide patterns from FASTA and FASTQ files.
+
+- Implements efficient pattern matching on sequence reads
+- Supports both FASTA and FASTQ input formats
+- Minimal dependencies, only uses built-in Python libraries
+- Includes utilities for filtering sequences based on quality scores (for FASTQ)
+- Designed for easy integration into bioinformatics pipelines
+
+> See the [`FASTA and FASTQ Pattern Matching`](./FASTA_FASTQ_Pattern_Matching) folder for source code and example usage.
 
 ## 🛫 Getting Started
 
