@@ -1,4 +1,4 @@
-# FASTA and FASTQ Pattern Matching
+🧬 # FASTA and FASTQ Pattern Matching
 
 This project provides tools for pattern matching in biological sequence files in FASTA and FASTQ formats. It supports strand-aware searching and quality score analysis for FASTQ data.
 
