@@ -34,7 +34,7 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 - Includes test datasets and example configurations  
 - Automates preprocessing, alignment, and variant detection  
 
-> See the [`NGS Variant Calling Pipeline`](./NGS_Variant_Calling_Pipeline) folder for full pipeline code and documentation.
+> See the [`NGS Variant Calling Pipeline`](./NGS%20Variant%20Calling%20Pipeline) folder for full pipeline code and documentation.
 
 ### 2. Ipseity Bio GATK Pipeline Training
 
@@ -43,7 +43,7 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 - Includes workflows for data preprocessing, base recalibration, and variant calling  
 - Focus on reproducibility and scalability in bioinformatics analysis  
 
-> See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK_Pipeline_Training_(Ipseity_Bio)) folder for training materials and example scripts.
+> See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK%20Pipeline%20Training%20(Ipseity%20Bio)) folder for training materials and example scripts.
 
 ### 3. Biopython FASTA Processing
 
@@ -54,7 +54,19 @@ Custom Python scripts leveraging Biopython for open reading frame (ORF) detectio
 - Supports customizable start and stop codons
 - Includes utilities for sequence translation and visualization
 
-> See the [`Biopython FASTA Processing`](./Biopython_FASTA_Processing) folder for script and sample input files. 
+> See the [`Biopython FASTA Processing`](./Biopython%20FASTA%20Processing) folder for script and sample input files.
+
+### 4. FASTA and FASTQ Pattern Matching
+
+A lightweight Python project for searching and extracting specific nucleotide patterns from FASTA and FASTQ files.
+
+- Implements efficient pattern matching on sequence reads
+- Supports both FASTA and FASTQ input formats
+- Minimal dependencies, only uses built-in Python libraries
+- Includes utilities for filtering sequences based on quality scores (for FASTQ)
+- Designed for easy integration into bioinformatics pipelines
+
+> See the [`FASTA and FASTQ Pattern Matching`](./FASTA%20FASTQ%20Pattern%20Matching) folder for source code and example usage.
 
 ## 🛫 Getting Started
 
