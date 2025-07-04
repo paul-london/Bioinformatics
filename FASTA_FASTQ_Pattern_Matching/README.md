@@ -19,7 +19,7 @@ This helps bioinformaticians and molecular biologists quickly find motifs or seq
 
 ## ⚙️ Usage
 
-To run the scripts, Python 3 is required, along with [Biopython](https://biopython.org/) for sequence handling.
+This project uses standard Python (3.x) and libraries such as `re` and `argparse`. No external packages are required.
 
 ### Install dependencies
 
