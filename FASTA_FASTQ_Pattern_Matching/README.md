@@ -19,9 +19,4 @@ This helps bioinformaticians and molecular biologists quickly find motifs or seq
 
 ## ⚙️ Usage
 
-This project uses standard Python (3.x) and libraries such as `re` and `argparse`. No external packages are required.
-
-### Install dependencies
-
-```bash
-pip install biopython
+This project uses standard Python (3.x) with no external dependencies.
