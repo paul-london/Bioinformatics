@@ -34,7 +34,7 @@ A reproducible and modular Snakemake workflow for variant calling from raw paire
 - Includes test datasets and example configurations  
 - Automates preprocessing, alignment, and variant detection  
 
-> See the [`NGS Variant Calling Pipeline`](./NGS%20Variant%20Calling%20Pipeline) folder for full pipeline code and documentation.
+> See the [`NGS Variant Calling Pipeline`](<./NGS Variant Calling Pipeline>) folder for full pipeline code and documentation.
 
 ### 2. Ipseity Bio GATK Pipeline Training
 
