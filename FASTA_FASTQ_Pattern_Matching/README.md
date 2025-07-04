@@ -1,20 +1,27 @@
 # FASTA and FASTQ Pattern Matching
 
-## Overview
-This project provides tools and scripts for pattern matching within biological sequence data stored in FASTA and FASTQ file formats. It is designed to help researchers and bioinformaticians identify specific nucleotide or amino acid patterns efficiently, including strand-aware matching and quality score analysis.
+This project provides tools for pattern matching in biological sequence files in FASTA and FASTQ formats. It supports strand-aware searching and quality score analysis for FASTQ data.
 
-## Features
-- Support for FASTA and FASTQ file input
-- Strand-aware pattern searching (both forward and reverse complement)
-- Quality score analysis for FASTQ reads
-- Identification of low-quality read cycles
-- Efficient handling of large sequence datasets
+---
 
-## Installation
-To run the scripts, you need Python 3.x installed along with the following libraries:
-- `Biopython` (for sequence handling)
-- Standard Python libraries (`re`, `sys`, `argparse`)
+## 🧬 Overview
 
-Install Biopython via pip if not already installed:
+The goal of this project is to facilitate searching for nucleotide or amino acid patterns in sequencing data, with features including:
+
+- Reading and parsing FASTA and FASTQ files  
+- Strand-aware pattern matching (searching forward and reverse complement)  
+- Extraction and analysis of quality scores from FASTQ files  
+- Identification of low-quality cycles in sequencing reads  
+
+This helps bioinformaticians and molecular biologists quickly find motifs or sequences of interest, and assess the quality of their sequencing data.
+
+---
+
+## ⚙️ Usage
+
+To run the scripts, Python 3 is required, along with [Biopython](https://biopython.org/) for sequence handling.
+
+### Install dependencies
+
 ```bash
 pip install biopython
