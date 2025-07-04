@@ -43,7 +43,7 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 - Includes workflows for data preprocessing, base recalibration, and variant calling  
 - Focus on reproducibility and scalability in bioinformatics analysis  
 
-> See the [`GATK Pipeline Training (Ipseity Bio)`](./GATK%20Pipeline%20Training%20(Ipseity%20Bio)) folder for training materials and example scripts.
+> See the [`GATK Pipeline Training (Ipseity Bio)`](<./GATK Pipeline Training (Ipseity Bio)>) folder for training materials and example scripts.
 
 ### 3. Biopython FASTA Processing
 
@@ -54,7 +54,7 @@ Custom Python scripts leveraging Biopython for open reading frame (ORF) detectio
 - Supports customizable start and stop codons
 - Includes utilities for sequence translation and visualization
 
-> See the [`Biopython FASTA Processing`](./Biopython%20FASTA%20Processing) folder for script and sample input files.
+> See the [`Biopython FASTA Processing`](<./Biopython FASTA Processing>) folder for script and sample input files.
 
 ### 4. FASTA and FASTQ Pattern Matching
 
@@ -66,7 +66,7 @@ A lightweight Python project for searching and extracting specific nucleotide pa
 - Includes utilities for filtering sequences based on quality scores (for FASTQ)
 - Designed for easy integration into bioinformatics pipelines
 
-> See the [`FASTA and FASTQ Pattern Matching`](./FASTA%20FASTQ%20Pattern%20Matching) folder for source code and example usage.
+> See the [`FASTA and FASTQ Pattern Matching`](<./FASTA FASTQ Pattern Matching>) folder for source code and example usage.
 
 ## 🛫 Getting Started
 
