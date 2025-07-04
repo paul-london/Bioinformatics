@@ -46,7 +46,7 @@ Set the file variable to either dna1.fasta or dna2.fasta
 - Frame and position info
 - Number of *n*-basepair repeats
 
-🧪 Example Output
+## 🧪 Example Output
 
 ```
 Sequence ID: gi|142022655|gb|EQ086233.1|16
@@ -56,6 +56,6 @@ Start: 1440
 Stop: 3084
 ```
 
-💡 Notes
+## 💡 Notes
 - You can customize start/stop codons as function parameters.
 - Easily extendable to output results in CSV or JSON formats.
