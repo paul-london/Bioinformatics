@@ -35,7 +35,7 @@ This project explores and compares multiple approaches for locating short DNA se
 ## ⚙️ Usage
 To run this project locally, follow these steps:
 1. Copy the contents of this repository folder
-2. In cell 4 of the Jupyter Notebook, change the variable `p` to the desired pattern to match
+2. In cell 4 of the Jupyter Notebook, change the variable `p` to the desired pattern to match (*Note: for use in index-based methods, length must be 24*)
 3. Run the remaining cells to compare each pattern matching method
 
 This project uses standard Python (3.x) with no external dependencies.
