@@ -1,4 +1,4 @@
-# 🔍 Different Approaches to Pattern Matching
+# 🧬 Different Approaches to Pattern Matching
 
 This project explores and compares multiple approaches for locating short DNA sequences (patterns) within a genome (text), including exact and approximate string matching algorithms and indexing strategies commonly used in bioinformatics.
 
