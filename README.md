@@ -66,7 +66,7 @@ A lightweight Python project for searching and extracting specific nucleotide pa
 - Includes utilities for filtering sequences based on quality scores (for FASTQ)
 - Designed for easy integration into bioinformatics pipelines
 
-> See the [`FASTA and FASTQ Pattern Matching`](<./FASTA FASTQ Pattern Matching>) folder for source code and example usage.
+> See the [`FASTA and FASTQ Naive Pattern Matching`](<./FASTA FASTQ Naive Pattern Matching>) folder for source code and example usage.
 
 ## 🛫 Getting Started
 
