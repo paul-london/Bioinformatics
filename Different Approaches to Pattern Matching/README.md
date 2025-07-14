@@ -30,7 +30,7 @@ This project explores and compares multiple approaches for locating short DNA se
 | 📊 Performance        | Character Comparison Count, Alignment Count                    |
 | 🧬 Indexing           | K-mer Index (exact match), Subsequence Index (approximate match)|
 | 🧪 Approximate Search | Hamming Distance (≤2 mismatches, no indels)                    |
-| 🧰 Python Features    | Class-based design,
+| 🧰 Python Features    | Class-based design, binary search using `bisect`
 
 ## ⚙️ Usage
 To run this project locally, follow these steps:
