@@ -15,7 +15,7 @@ This project explores and compares multiple approaches for locating short DNA se
 
 | File                                  | Description                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------|
-| `Different Approaches to Pattern Matching.ipynb` | Interactive notebook comparing all methods                                  |
+| `Different Approaches to Pattern Matching.ipynb` | Interactive notebook comparing and implementing matching methods                                  |
 | `bm_preproc.py`                      | Boyer-Moore preprocessing class (bad character & good suffix heuristics)    |
 | `kmer_index.py`                      | K-mer indexing implementation                                               |
 | `subseqindex.py`                     | Subsequence index class (spaced seeds for approximate match)                |
