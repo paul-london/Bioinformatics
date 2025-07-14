@@ -28,7 +28,7 @@ This project explores and compares multiple approaches for locating short DNA se
 |----------------------|-----------------------------------------------------------------|
 | 🔡 Pattern Matching   | Naive Matching, Boyer-Moore Algorithm                           |
 | 📊 Performance        | Character Comparison Count, Alignment Count                    |
-| 🧬 Indexing           | *K*-mer Index (exact match), Subsequence Index (approximate match)|
+| 🧬 Indexing           | *K*-mer Index, Subsequence Index                              |
 | 🧪 Approximate Search | Hamming Distance (≤2 mismatches, no indels)                    |
 | 🧰 Python Features    | Class-based design, binary search using `bisect`
 
