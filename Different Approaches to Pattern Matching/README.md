@@ -15,11 +15,11 @@ This project explores and compares multiple approaches for locating short DNA se
 
 | File                                  | Description                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------|
-| `Different Approaches to Pattern Matching.ipynb` | Interactive notebook comparing and implementing matching methods                                  |
+| `Different Approaches to Pattern Matching.ipynb` | Interactive notebook comparing and implementing matching methods |
 | `bm_preproc.py`                      | Boyer-Moore preprocessing class (bad character & good suffix heuristics)    |
-| `kmer_index.py`                      | *K*-mer indexing implementation                                               |
-| `subseqindex.py`                     | Subsequence index class (spaced seeds for approximate match)                |
-| `chr1.GRCh38.excerpt.fasta`          | Genomic reference data used for testing (exerpt of human chromosome 1)     |                                        |
+| `kmer_index.py`                      | *K*-mer indexing class (index genome by substrings of size `k`              |
+| `subseqindex.py`                     | Subsequence index class (spaced subsequences: length `k` and spacing `ival` |
+| `chr1.GRCh38.excerpt.fasta`          | Genomic reference data used for testing (exerpt of human chromosome 1)     |                                        
 | `README.md`                         | Project overview and documentation (this file)                              |
 
 ## 🧠 Concepts Covered
