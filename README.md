@@ -66,7 +66,17 @@ A lightweight Python project for searching and extracting specific nucleotide pa
 - Includes utilities for filtering sequences based on quality scores (for FASTQ)
 - Designed for easy integration into bioinformatics pipelines
 
-> See the [`FASTA and FASTQ Pattern Matching`](<./FASTA FASTQ Pattern Matching>) folder for source code and example usage.
+> See the [`FASTA and FASTQ Naive Pattern Matching`](<./FASTA FASTQ Naive Pattern Matching>) folder for source code more information.
+
+### 5. Different Approaches to Pattern Matching
+
+Compare pattern matching performance and explore indexing-based approximate search strategies.
+
+- Naive vs Boyer-Moore: alignments and character comparisons 
+- K-mer and spaced-seed subsequence indexing
+- Approximate matching with up to 2 mismatches
+
+> See the [`Different Approaches to Pattern Matching`](<./Different Approaches to Pattern Matching>) folder for source code and more information.
 
 ## 🛫 Getting Started
 
