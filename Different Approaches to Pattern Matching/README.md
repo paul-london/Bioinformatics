@@ -9,7 +9,7 @@ This project explores and compares multiple approaches for locating short DNA se
   - Character comparisons
   - Alignment counts
 - Explore ***K*-mer** and **Subsequence Indexing** for efficient approximate matching
-- Work with real genomic data, exerpt of human chromosome 1 (`chr1.GRCh38.excerpt.fasta`)
+- Work with real genomic data - exerpt of human chromosome 1 (`chr1.GRCh38.excerpt.fasta`)
 
 ## 📁 Contents
 
