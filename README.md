@@ -76,7 +76,7 @@ Compare pattern matching performance and explore indexing-based approximate sear
 - K-mer and spaced-seed subsequence indexing
 - Approximate matching with up to 2 mismatches
 
-> See the [`Different Approaches to Pattern Matching`](./Different Approaches to Pattern Matching) folder for source code and more information.
+> See the [`Different Approaches to Pattern Matching`](<./Different Approaches to Pattern Matching>) folder for source code and more information.
 
 ## 🛫 Getting Started
 
