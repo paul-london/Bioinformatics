@@ -2,7 +2,7 @@
 
 This project explores and compares multiple approaches for locating short DNA sequences (patterns) within a genome (text), including exact and approximate string matching algorithms and indexing strategies commonly used in bioinformatics.
 
-## 📌 Project Goals
+## 🔍 Overview
 
 - Compare **Naive Pattern Matching** and **Boyer-Moore** algorithms
 - Measure and visualize **performance**:
