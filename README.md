@@ -87,7 +87,7 @@ Each project folder contains its own README with detailed setup and usage instru
 To clone this repository to your local machine, run:
 
 ```bash
-git clone https://github.com/paul-london/bioinformatics.git
+git clone https://github.com/paul-london/Bioinformatics.git
 ```
 
 ## 📬 Contact
