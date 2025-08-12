@@ -26,17 +26,7 @@ Welcome to my bioinformatics projects repository! Here you will find pipelines a
 
 ## 📁 Projects in this Repository
 
-### 1. NGS Variant Calling Snakemake Pipeline
-
-A reproducible and modular Snakemake workflow for variant calling from raw paired-end FASTQ files.  
-- Uses tools like BWA, SAMtools, and bcftools  
-- Supports conda environments for easy dependency management  
-- Includes test datasets and example configurations  
-- Automates preprocessing, alignment, and variant detection  
-
-> See the [`NGS Variant Calling Pipeline`](<./NGS Variant Calling Pipeline>) folder for full pipeline code and documentation.
-
-### 2. Ipseity Bio GATK Pipeline Training
+### 1. Ipseity Bio GATK Pipeline Training
 
 Training materials and example workflows from the Ipseity Bio GATK pipeline course.  
 - Hands-on experience with the GATK best practices for variant discovery  
@@ -45,7 +35,7 @@ Training materials and example workflows from the Ipseity Bio GATK pipeline cour
 
 > See the [`GATK Pipeline Training (Ipseity Bio)`](<./GATK Pipeline Training (Ipseity Bio)>) folder for training materials and example scripts.
 
-### 3. Biopython FASTA Processing
+### 2. Biopython FASTA Processing
 
 Custom Python scripts leveraging Biopython for open reading frame (ORF) detection and DNA sequence analysis.
 
@@ -56,7 +46,7 @@ Custom Python scripts leveraging Biopython for open reading frame (ORF) detectio
 
 > See the [`Biopython FASTA Processing`](<./Biopython FASTA Processing>) folder for script and sample input files.
 
-### 4. FASTA and FASTQ Pattern Matching
+### 3. FASTA and FASTQ Pattern Matching
 
 A lightweight Python project for searching and extracting specific nucleotide patterns from FASTA and FASTQ files.
 
@@ -68,7 +58,7 @@ A lightweight Python project for searching and extracting specific nucleotide pa
 
 > See the [`FASTA and FASTQ Naive Pattern Matching`](<./FASTA FASTQ Naive Pattern Matching>) folder for source code more information.
 
-### 5. Different Approaches to Pattern Matching
+### 4. Different Approaches to Pattern Matching
 
 Compare pattern matching performance and explore indexing-based approximate search strategies.
 
