@@ -32,8 +32,8 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 ## 📁 Projects Overview
 
 ### 1. Course Training & Exercises (`course-training/`)
-Assignments and exploratory scripts from Coursera training.  
-Focus: building strong foundations in genomic data science.
+- Assignments and exploratory scripts from Coursera training.  
+- Focus: building strong foundations in genomic data science.
 
 > Each subfolder includes its own README with explanations and runnable examples.
 
@@ -41,12 +41,14 @@ Focus: building strong foundations in genomic data science.
 
 ### 2. Pipelines (`pipelines/`)
 #### 🔬 GATK Pipeline Training (`pipelines/gatk-pipeline-training/`)
-Hands-on practice pipelines following GATK best practices for variant discovery.  
-Emphasis on reproducibility and modular structure.
+
+- Hands-on practice pipelines following GATK best practices for variant discovery.  
+- Emphasis on reproducibility and modular structure.
 
 #### 🧪 Prototype GATK Pipeline (`pipelines/prototype-gatk-pipeline/`)
-A custom prototype adapted to real datasets.  
-Demonstrates troubleshooting, parameter tuning, and optimization.
+
+- A custom prototype adapted to real datasets.  
+- Demonstrates troubleshooting, parameter tuning, and optimization.
 
 > Each folder includes setup instructions, command examples, and data templates.
 
