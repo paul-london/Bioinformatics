@@ -1,6 +1,6 @@
 # Bioinformatics Projects
 
-Welcome to my bioinformatics projects repository! Here you will find pipelines and training resources that I've developed and worked with to streamline genomic data analysis.
+Welcome to my bioinformatics projects repository! Here you will find pipelines and training resources that I've developed and worked with to streamline genomic data analysis. Most of the projects are related to the Genomic Data Science Specialization course by Johns Hopkins University (Coursera) plus interest in production-ready NGS analysis pipelines related to my work in a molecular diagnostics laboratory.
 
 ## 🚀 Core Topics
 
