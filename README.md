@@ -39,7 +39,7 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 
 ---
 
-### 2. Pipelines (`pipelines/`)
+### 2. Pipelines
 #### [GATK Pipeline Training and Prototype](./NGS-Analysis-Pipelines/GATK-Pipeline)
 
 - Hands-on practice building pipelines following GATK best practices for variant discovery.  
@@ -51,7 +51,7 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 
 ---
 
-### 3. Variant Summary & Visualization in R (`variant-summary/`)
+### 3. Variant Summary & Visualization in R
 ***New Project* — statistical analysis and visual storytelling with R.**
 
 - Summarize variant types (SNPs vs INDELs)  
