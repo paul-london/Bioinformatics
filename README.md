@@ -40,12 +40,12 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 ---
 
 ### 2. Pipelines (`pipelines/`)
-#### GATK Pipeline Training and Prototype Pipeline (`pipelines/gatk-pipeline-training/)
+#### [GATK Pipeline Training and Prototype](./NGS-Analysis-Pipelines/GATK-Pipeline)
 
-- Hands-on practice pipelines following GATK best practices for variant discovery.  
+- Hands-on practice building pipelines following GATK best practices for variant discovery.  
 - Emphasis on reproducibility and modular structure.
 
-#### Custom NGS Pipeline (`pipelines/custom-ngs-pipeline/`)
+#### [Custom NGS Pipeline](./NGS-Analysis/Custom-NGS-Pipeline)
 - A self-designed pipeline created from scratch to handle end-to-end NGS data processing.  
 > Each folder includes setup instructions, command examples, and data templates.
 
