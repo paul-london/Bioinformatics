@@ -52,7 +52,7 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 ---
 
 ### 3. Variant Summary & Visualization in R (`variant-summary/`)
-**New Project** — statistical analysis and visual storytelling with R.
+***New Project* — statistical analysis and visual storytelling with R.**
 
 - Summarize variant types (SNPs vs INDELs)  
 - Generate chromosome-level plots & allele frequency distributions  
