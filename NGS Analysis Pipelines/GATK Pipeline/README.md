@@ -1,6 +1,6 @@
-# NGS Variant Calling Pipeline – GATK Workflow (Ipseity Bio Training)
+# NGS Variant Calling Pipeline – GATK Workflow (Bioinformatics Services Company Training)
 
-This repository documents hands-on training in next-generation sequencing (NGS) analysis using the Genome Analysis Toolkit (GATK) pipeline. The project replicates a proprietary workflow from Ipseity Bio for variant calling and computational analysis on real-world sequencing data.
+This repository documents hands-on training in next-generation sequencing (NGS) analysis using the Genome Analysis Toolkit (GATK) pipeline. The project is my version of a proprietary workflow from a collaboring bioinformatics services company for variant calling and computational analysis on real-world sequencing data.
 
 ---
 
@@ -20,7 +20,7 @@ This repository documents hands-on training in next-generation sequencing (NGS) 
 - [BWA](http://bio-bwa.sourceforge.net/) (Burrows-Wheeler Aligner)  
 - [SAMtools](http://www.htslib.org/)  
 - [Picard](https://broadinstitute.github.io/picard/)  
-- Ipseity Bio proprietary Python utilities (not included - please contact Ipseity Bio)  
+- Proprietary Python utilities (not included)  
 - Conda for environment and package management
 
 ---
