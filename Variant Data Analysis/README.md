@@ -1,4 +1,4 @@
-# VCF Data Visualization Project
+# Variant Data Analysis
 
 This project explores **Variant Call Format (VCF) files** by creating clear, reproducible visualizations for genomic variants.  
 It is part of my **bioinformatics portfolio** to demonstrate skills in **data wrangling, genomic analysis, and visualization**.
