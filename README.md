@@ -2,7 +2,7 @@
 
 Welcome to my bioinformatics projects repository.
 
-This collection includes **pipelines, analyses, and training resources** that I’ve developed to streamline genomic data analysis. Many projects stem from the [Genomic Data Science Specialization](https://www.coursera.org/specializations/genomic-data-science) (Johns Hopkins University, Coursera), along with hands-on work inspired by my experience in a molecular diagnostics laboratory.
+This collection includes **pipelines, analyses, and training resources** that I’ve developed to streamline genomic data analysis. Many projects stem from the [Genomic Data Science Specialization](https://www.coursera.org/specializations/genomic-data-science) (Johns Hopkins University - Coursera), along with hands-on work inspired by my experience in a molecular diagnostics laboratory.
 
 Explore end-to-end projects that highlight both my **command-line bioinformatics expertise** and my **growing data science/visualization skills**.
 
