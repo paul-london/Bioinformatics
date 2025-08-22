@@ -2,6 +2,7 @@
 *Johns Hopkins University via Coursera*  
 
 This repository contains my notes, exercises, and projects from the **Genomic Data Science Specialization**.  
+
 The program provides a strong foundation in **next-generation sequencing (NGS) analysis**, **bioinformatics tools**, and **statistical methods** for interpreting genomic data.  
 
 ---
