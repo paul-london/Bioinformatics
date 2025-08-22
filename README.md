@@ -32,7 +32,7 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 
 ## 📁 Projects Overview
 
-### 1. [Course Training & Exercises](./Genomic-Data-Science-Specialization)
+### 1. [Course Training & Exercises](./Genomic%20Data%20Science%20Specialization)
 - Assignments and exploratory scripts from Coursera training.  
 - Focus: building strong foundations in genomic data science.
 
@@ -41,12 +41,12 @@ Explore end-to-end projects that highlight both my **command-line bioinformatics
 ---
 
 ### 2. Pipelines
-#### [GATK Pipeline Training and Prototype](./NGS-Analysis-Pipelines/GATK-Pipeline)
+#### [GATK Pipeline Training and Prototype](./NGS%20Analysis%20Pipelines/GATK%20Pipeline)
 
 - Hands-on practice building pipelines following GATK best practices for variant discovery.  
 - Emphasis on reproducibility and modular structure.
 
-#### [Custom NGS Pipeline](./NGS-Analysis/Custom-NGS-Pipeline)
+#### [Custom NGS Pipeline](./NGS%20Analysis%20Pipelines/Custom%20Pipeline)
 - A self-designed pipeline created from scratch to handle end-to-end NGS data processing.  
 > Each folder includes setup instructions, command examples, and data templates.
 
