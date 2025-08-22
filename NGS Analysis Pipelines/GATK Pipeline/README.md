@@ -14,6 +14,7 @@ This repository documents hands-on training in next-generation sequencing (NGS) 
 
 ## Tools and Environment
 
+- Docker container containing the items below
 - Linux (Ubuntu 20.04)  
 - Python 3.10  
 - [GATK](https://gatk.broadinstitute.org/hc/en-us) (Genome Analysis Toolkit)  
