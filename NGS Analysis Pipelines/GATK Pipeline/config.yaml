@@ -1,4 +1,4 @@
-bed_file: "CGX_SUREQUESTDX_213713.bed"
+bed_file: "Panel.bed"
 
 filter_thresholds:
   DP: 100   # Depth Coverage
