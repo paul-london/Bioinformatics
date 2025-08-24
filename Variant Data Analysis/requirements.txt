@@ -1,0 +1,6 @@
+cyvcf2
+pandas
+matplotlib
+seaborn
+plotly
+jupyter
