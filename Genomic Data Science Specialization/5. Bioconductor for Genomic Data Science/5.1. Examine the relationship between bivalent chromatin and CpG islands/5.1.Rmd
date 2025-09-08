@@ -1,0 +1,188 @@
+# 5.1 Examine the relationship between bivalent chromatin and CpG islands
+
+In this project, I will examine the relationship between bivalent chromatin (specifically histone modifications H3K4me3 and H3K27me3) and CpG islands using AnnotationHub, and answer questions about the results.
+
+## Load Required Libraries
+
+```{r}
+library(AnnotationHub)
+library(GenomicRanges)
+library(rtracklayer)
+```
+
+## Question 1: Use the AnnotationHub package to obtain data on "CpG Islands" in the human genome. How many islands exist on the autosomes?
+
+- 26641
+
+## Question 2: How many CpG islands exist on chromosome 4?
+
+- 1031
+
+```{r}
+ah <- AnnotationHub()
+ah_human_CpG <- query(ah, c("CpG Islands", "hg19"))
+ah_human_CpG
+ah_human_CpG_data <- ah_human_CpG[["AH5086"]]
+ah_human_CpG_data
+
+# Summary of CpG Island Dataset
+
+summary(width(ah_human_CpG_data))
+seqinfo(ah_human_CpG_data)
+seqlevels(ah_human_CpG_data)
+gaps(ah_human_CpG_data)
+
+# Reduce Data
+
+ah_human_CpG_reduce <- reduce(ah_human_CpG_data)
+ah_human_CpG_reduce
+
+# Count Number of CpG Islands in Autosomes
+
+autosome <- c(paste("chr", 1:22, sep=""))
+split_data_by_chr <- split(ah_human_CpG_reduce, seqnames(ah_human_CpG_reduce))
+autosome_CpG_data <- split_data_by_chr[autosome]
+seqlevels(autosome_CpG_data)
+
+# CpG Islands on Autosome
+
+unlist(autosome_CpG_data)
+
+# CpG Islands on Chr4
+
+autosome_CpG_data[4]
+```
+
+## Question 3: Obtain the data for the H3K4me3 histone modification for the H1 cell line from Epigenomics Roadmap, using AnnotationHub. Subset these regions to only keep regions mapped to the autosomes (chromosomes 1 to 22). How many bases do these regions cover?
+
+- 41135164
+
+```{r}
+ah_H3K4me <- query(ah, c("H3K4me3", "E003"))
+ah_H3K4me_data <- ah_H3K4me[["AH29884"]]
+seqinfo(ah_H3K4me_data)
+seqlevels(ah_H3K4me_data)
+
+# Subset autosome data
+
+ah_H3K4me_autosome_data <- subset(ah_H3K4me_data, seqnames %in% autosome)
+
+# Count basepairs
+
+sum(width(ah_H3K4me_autosome_data))
+```
+
+## Question 4: Obtain the data for the H3K27me3 histone modification for the H1 cell line from Epigenomics Roadmap, using the AnnotationHub package. Subset these regions to only keep regions mapped to the autosomes. In the return data, each region has an associated "signalValue". What is the mean signalValue across all regions on the standard chromosomes?
+
+- 4.770728
+
+
+
+```{r}
+# Find H3K27me3 histone modification dataset for the H1 cell line from Epigenomics Roadmap
+
+ah_H3K27me3 <- query(ah, c("H3K27me3", "narrowPeak", "E003"))
+ah_H3K27me3
+
+# Retrieve data
+
+ah_H3K27me3_data <- ah_H3K27me3[["AH29892"]]
+summary(width(ah_H3K27me3_data))
+seqlevels(ah_H3K27me3_data)
+seqinfo(ah_H3K27me3_data)
+
+# Subset autosome data
+
+ah_H3K27me3_autosome_data <- subset(ah_H3K27me3_data, seqnames %in% autosome)
+
+# Calculate mean signalValue
+
+ah_H3K27me3_autosome_data_mean <- mean(ah_H3K27me3_autosome_data$signalValue)
+ah_H3K27me3_autosome_data_mean
+```
+
+## Question 5: Bivalent regions are bound by both H3K4me3 and H3K27me3. Using the regions we have obtained above, how many bases on the standard chromosomes are bivalently marked?
+
+- 10289096
+
+```{r}
+# Bivalent regions are the intersect of the two histone modifications
+
+bivalent_data <- intersect(ah_H3K4me_autosome_data, ah_H3K27me3_autosome_data)
+sum(width(bivalent_data))
+```
+
+## Question 6: We will examine the extent to which bivalent regions overlap CpG Islands. How big a fraction (expressed as a number between 0 and 1) of the bivalent regions, overlap one or more CpG Islands?
+
+- 0.5383644
+
+## Question 7: How big a fraction (expressed as a number between 0 and 1) of the bases which are part of CpG Islands, are also bivalent marked?
+
+- 0.241688
+
+## Question 8: How many bases are bivalently marked within 10kb of CpG Islands? *Tip: consider using the "resize()"" function.*
+
+- 9782086
+
+```{r}
+# How big a fraction (expressed as a number between 0 and 1) of the bivalent regions, overlap one or more CpG Islands?
+
+CpG_bivalent_data <- findOverlaps(bivalent_data, unlist(autosome_CpG_data))
+fraction_bi <- length(unique(queryHits(CpG_bivalent_data)))/length(bivalent_data)
+fraction_bi
+
+# How big a fraction (expressed as a number between 0 and 1) of the bases which are part of CpG Islands, are also bivalent marked?
+
+ov_CpG_bivalent <- intersect(bivalent_data, unlist(autosome_CpG_data))
+fraction_CpG <- sum(width(reduce(ov_CpG_bivalent)))/sum(width(unlist(autosome_CpG_data)))
+fraction_CpG
+
+# How many bases are bivalently marked within 10kb of CpG Islands?
+
+autosome_CpG_data
+CpG_10k <- resize(unlist(autosome_CpG_data), width = 20000 + width(unlist(autosome_CpG_data)), fix = "center")
+CpG_10k_bivalent <- intersect(CpG_10k, bivalent_data)
+sum(width(CpG_10k_bivalent))
+```
+
+## Question 9: How big a fraction (expressed as a number between 0 and 1) of the human genome is contained in a CpG Island? *Tips: the object returned by AnnotationHub contains "seqlengths". You may encounter an integer overflow. As described in the session on R Basic Types, you can address this by converting integers to numeric before summing them, "as.numeric()".*
+
+- 0.006472101
+
+## Question 10: Compute an odds-ratio for the overlap of bivalent marks with CpG islands.
+
+- 184.2644
+
+```{r}
+# Calculate genome size
+
+genome <- ah[["AH5018"]]
+genome <- keepSeqlevels(genome, c("chr1", "chr2", "chr3", "chr4", "chr5", "chr6", "chr7", "chr8", "chr9", "chr10", "chr11", "chr12", "chr13", "chr14", "chr15", "chr16", "chr17", "chr18", "chr19", "chr20", "chr21", "chr22"))
+genome_size <- sum(as.numeric(seqlengths(genome)))
+
+# How big a fraction (expressed as a number between 0 and 1) of the human genome is contained in a CpG Island?
+
+sum(as.numeric(width(unlist(autosome_CpG_data))))/genome_size
+
+# Odds ratio is odds of condition 1 to outcome divided by odds of condition 2 to outcome (bivalent and CpG * neither / bivalent only * CpG only)
+
+# Create 2x2 matrix to hold outcomes
+
+inOut = matrix(0, ncol = 2, nrow = 2)
+colnames(inOut) = c("in", "out")
+rownames(inOut) = c("in", "out")
+inOut
+
+# Populate 2x2 matrix with values from above
+
+inOut[1,1] = sum(width(intersect(bivalent_data, unlist(autosome_CpG_data), ignore.strand=TRUE)))
+inOut[1,2] = sum(width(setdiff(bivalent_data, unlist(autosome_CpG_data), ignore.strand=TRUE)))
+inOut[2,1] = sum(width(setdiff(unlist(autosome_CpG_data), bivalent_data, ignore.strand=TRUE)))
+inOut[2,2] = genome_size - sum(inOut)
+inOut
+
+# Calculate odds ratio
+
+odds_ratio <- inOut[1,1]*inOut[2,2]/(inOut[1,2]*inOut[2,1])
+odds_ratio
+```
